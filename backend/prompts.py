@@ -228,7 +228,7 @@ IMPORTANT RESTRICTIONS
 6. Do not recommend a chart that cannot be generated from the
    available columns.
 
-7. Do not recommend more than 3 visualizations.
+7. Do not recommend more than 4 visualizations.
 
 8. Recommend fewer than 2 only if the dataset genuinely does
    not contain enough suitable information.
@@ -293,7 +293,7 @@ Important:
 - Use "none" for scatter, histogram, and heatmap.
 - For pie charts, y_column may be null.
 - For histogram, y_column should be null. 
-- Do not recommend more than 3 charts.
+- Do not recommend more than 4 charts.
 - Do not recommend fewer than 2 charts unless there are genuinely
   insufficient suitable columns.
 - Every column name must exactly match a column name in the profile.
@@ -342,7 +342,7 @@ Pay particular attention to:
 - relationships between categorical, numeric, and datetime columns
 - potential identifier columns
 
-Select the most meaningful 2 or 3 visualizations that can be
+Select the most meaningful 2 or 4 visualizations that can be
 generated from the dataset.
 
 Return ONLY valid JSON.
